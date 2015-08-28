@@ -20,6 +20,7 @@ shiny::runApp(list(
 
 ui = 
   list(
+    tags$head(tags$meta(name="viewport", content="width=device-width, initial-scale=1")),
     uiOutput("MainPage")
   ),
 
